@@ -210,3 +210,87 @@ Isso ficaria do seguinte jeito:
 	<dt>vampire</dt>
 		<dd>A preternatural being, commonly believed to be a reanimated corpse, that is said to suck the blood of sleeping persons at night.</dd>
 </dl>
+
+<hr>
+
+<h3>TABLES</h3>
+
+Para criar tabelas usaremos o ``<table>``, ``<tr>``, ``<th>`` e o ``<td>``.
+
+```
+<table>
+	<tr>
+		<th>Coluna1</th>
+		<th>Coluna2</th>
+		<th>Coluna3</th>
+		<th>Coluna4</th>
+		<th>Coluna5</th>
+	</tr>
+	<tr>
+		<td>linha1</td>
+		<td>linha2</td>
+		<td>linha3</td>
+		<td>linha4</td>
+		<td>linha5</td>
+	</tr>
+</table>
+```
+Isso ficaria:
+
+<table>
+	<tr>
+		<th>Coluna1</th>
+		<th>Coluna2</th>
+		<th>Coluna3</th>
+		<th>Coluna4</th>
+		<th>Coluna5</th>
+	</tr>
+	<tr>
+		<td>linha1</td>
+		<td>linha2</td>
+		<td>linha3</td>
+		<td>linha4</td>
+		<td>linha5</td>
+	</tr>
+</table>
+
+É possível formatar o texto também, colocando atributos no ``<tr>``. Como por exemplo o ``align="center"``:
+
+<table border="1">
+	<tr>
+		<th>Coluna1</th>
+		<th>Coluna2</th>
+		<th>Coluna3</th>
+		<th>Coluna4</th>
+		<th>Coluna5</th>
+	</tr>
+	<tr align="center">
+		<td>linha1</td>
+		<td>linha2</td>
+		<td>linha3</td>
+		<td>linha4</td>
+		<td>linha5</td>
+	</tr>
+</table>
+
+Fica difícil de ver mas funciona xD.
+
+``border=""`` ajusta o tamanho das linhas da borda da table.
+É possível também alterar o tamanho das células usando o ``widht`` ou ``height``.
+
+<hr>
+
+<h3>BUTTON</h3>
+Utilizaremos a tag ``<button></button>``. É bem simples:
+```
+<button>Click Me</button>
+```
+<button>Click Me</button>
+É possivel fazer alterações nele usando atributos tambem, como ``font-size``, ``backgournd-color``, etc....
+
+Para fazer com que ele jogue para outra página utilizamos o ``<a>``, também podemos usar ``JavaScript``, porém isso é mais pra frente.
+
+<hr>
+
+<h3>FORMS</h3>
+

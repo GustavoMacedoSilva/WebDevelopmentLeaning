@@ -294,3 +294,96 @@ Para fazer com que ele jogue para outra página utilizamos o ``<a>``, também po
 
 <h3>FORMS</h3>
 
+<form action="index.php" method="POST" enctype="multipart/form/data">
+		<label for="username">Username: </label>
+		<input type="text" placeholder="Username" id="username" minlenght="3" maxlenght="50" required><br>
+
+		<label for="password">Password: </label>
+		<input type="password" id="password" required><br>
+
+		<label for="email">Email: </label>
+		<input type="email" id="email" placeholder="email@email.com"><br>
+
+		<label for="phone">Phone: </label>
+		<input type="phone" placeholder="35 999999999" pattern="[0-9]{2} [0-9]{9}"><br>
+
+		<label for="birthday">Birthday: </label>
+		<input type="date" id="birthday"><br>
+
+		<label for="quantity">Quantity: </label>
+		<input type="number" id="quantity" min="0" max='999'><br>
+
+		<label for="title">Title:</label>
+
+		<label for="Mr">Mr.</label>
+		<input type="radio" id="Mr" value="Mr" name="title">
+		<label for="Ms">Ms.</label>
+		<input type="radio" id="Ms" value="Ms" name="title">
+		<label for="PhD">PhD.</label>
+		<input type="radio" id="PhD" value="PhD" name="title"><br>
+
+		<label for="payment">Payment:</label>
+		<select id="payment">
+			<option value="visa">visa</option>
+			<option value="mastercard">mastercard</option>
+			<option value="elo">elo</option>
+		</select><br>
+
+		<label for="subscribe">subscribe</label>
+		<input type="checkbox" id="subscribe"><br>
+
+		<label for="comment">comment</label>
+		<textarea id="comment" rows="3" cols="25"></textarea><br>
+
+		<label for="file">file</label>
+		<input type="file" id="file" accept="image/png, image/jpeg"><br>
+
+		<input type="submit">
+</form>
+
+
+### Headers & Footers
+
+<hr>
+
+```
+<header style="background-color: mediumpurple">
+	<h1>Welcome to the Website</h1>
+	<a href="">Home</a>
+	<a href="">About us</a>
+	<a href="">Contact us</a>
+	<hr>
+</header>
+
+<main>
+	<h4>Check out!!!</h4>
+</main>
+
+<footer style="background-color: mediumpurple">
+	<hr>
+	autor: XD<br>
+	&copy; copyright reserved<br>
+	<small><a href="mailto: Xexo@gmail.com">Xexp@gmail.com</a></small>
+</footer>
+```
+
+Ficará assim:
+<hr>
+<header style="background-color: mediumpurple">
+	<h1>Welcome to the Website</h1>
+	<a href="">Home</a>
+	<a href="">About us</a>
+	<a href="">Contact us</a>
+	<hr>
+</header>
+
+<main>
+	<h4>Check out!!!</h4>
+</main>
+
+<footer style="background-color: mediumpurple">
+	<hr>
+	autor: XD<br>
+	&copy; copyright reserved<br>
+	<small><a href="mailto: Xexo@gmail.com">Xexp@gmail.com</a></small>
+</footer>

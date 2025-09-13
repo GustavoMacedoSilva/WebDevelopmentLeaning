@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+*::selection{
+    color: hsl(100, 100%, 0%);
+    background-color: hsl(0, 0%, 100%);
+}
+body{
+    background-color: black;
+    /* border-top: 3px solid hsl(255, 100%, 30%);
+    border-left: 3px solid hsl(255, 100%, 30%);
+    border-right: 3px solid hsl(255, 100%, 30%); */
+}
+body h1{
+    color:white;
+}
+body h3{
+    color: white;
+}
+body p{
+    color: white;
+}
+.emphasis{
+    color: red;
+}
+.emphasis::selection{
+    color: hsl(240, 100%, 50%);
+}
+
+.hyperlink{
+    color: deepskyblue;
+    text-decoration: none;
+}
+.hyperlink:hover{
+    color: hsl(208, 61%, 45%);
+}
+hr{
+    border: none;
+    border-top: 3px double white;
+    color: white;
+    text-align: center;
+    overflow: visible;
+    height: 5px;
+}
+hr::after{
+    content: "🌪️";
+    position: relative;
+    background:hsl(100, 100%, 0%);
+    padding: 0 4px;
+    top: -10px;
+}
+.storm-type-img{
+    height: 50vh;
+    width: auto;
+    float: right;
+}

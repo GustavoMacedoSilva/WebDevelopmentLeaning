@@ -49,3 +49,35 @@
 .dropdown a:hover{
     background-color: hsl(0, 0%, 90%);
 }
+
+#NavigationBar{
+    margin: 0px;
+}
+#NavigationBar main{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#NavigationBar h1{
+    text-align: center;
+}
+#NavigationBar .navbar ul{
+    list-style-type: none;
+    background-color: hsl(0, 0%, 32%);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+#NavigationBar .navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+#NavigationBar .navbar a:hover{
+    background-color: hsl(0, 0%, 11%);
+
+}
+#NavigationBar .navbar li{
+    float: left;
+}
